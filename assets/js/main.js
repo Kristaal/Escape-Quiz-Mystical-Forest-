@@ -155,7 +155,7 @@ const init = () => {
         displayScreen('welcome');
         questionIndex = 0;
     });
-    
+
 // hide screen after click button
     els.answersContainer.addEventListener('click', ({ target }) => {
         if (target.tagName !== 'LI') {
@@ -175,3 +175,12 @@ const init = () => {
     });
 
 };
+
+// calculation
+const calculateScore = () => {
+    const result = recordedAnswers.sort((a, b) => {
+        return recordedAnswers.filter(answer => answer === a).length - 
+        recordedAnswers.filter(answer => answer === b).length 
+    }).pop();
+    // console.log('result', result)
+}

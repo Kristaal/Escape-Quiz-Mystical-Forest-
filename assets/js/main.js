@@ -194,3 +194,22 @@ const calculateScore = () => {
 
     els.endScreen.querySelector('span').textContent = resultFullAnswer[result];
 };
+
+// add function to answers
+const displayQuestion = (index) => {
+
+    const currentQuestion = questions[index];
+
+    const questionEl = els.questionScreen.querySelector('h2');
+
+    const answerEls = currentQuestion.answers.map((answer) => {
+        const liEl = document.createElement('li');
+        liEl.textContent = answer.title;
+        liEl.setAttribute('data-result', answer.result);
+        return liEl;
+    });
+
+    questionEl.textContent = currentQuestion.question;
+    els.answersContainer.textContent = '';
+    els.answersContainer.append(...answerEls);
+};

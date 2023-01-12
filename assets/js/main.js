@@ -183,4 +183,14 @@ const calculateScore = () => {
         recordedAnswers.filter(answer => answer === b).length 
     }).pop();
     // console.log('result', result)
-}
+
+    // 3 possible results after quiz
+    const resultFullAnswer = {
+        right: 'You wake up in your bed at home. This terrible dream is over. But you suddenly realize that your shoulder is aching terribly and there is a wound as if from claws. Was it a dream? It doesn`t matter - You escaped and showed good intuition and ability to survive, this is the main thing.',
+        middle: 'Your head hurts. You wake up on the floor of an old house, remembering nothing ... Oh, no. This has already happened to you. Looks like you`re stuck, maybe next time you`ll be able to escape.',
+        wrong: 'You did not run away and unfortunately you died. Your intuition failed you and the decisions you made were wrong. Maybe sign up for a survival course!',
+        
+    };
+
+    els.endScreen.querySelector('span').textContent = resultFullAnswer[result];
+};

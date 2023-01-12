@@ -155,4 +155,23 @@ const init = () => {
         displayScreen('welcome');
         questionIndex = 0;
     });
-}
+    
+// hide screen after click button
+    els.answersContainer.addEventListener('click', ({ target }) => {
+        if (target.tagName !== 'LI') {
+            return;
+        }
+        const result = target.getAttribute('data-result');
+        recordedAnswers.push(result);
+
+        questionIndex++;
+
+        if (questionIndex >= questions.length) {
+            calculateScore();
+            displayScreen('end');
+        } else {
+            displayQuestion(questionIndex);
+        }
+    });
+
+};

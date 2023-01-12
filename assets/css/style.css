@@ -71,3 +71,42 @@ body {
 .rules-screen h3 span {
     color: black;
 }
+
+/* Style Question page */
+.question-screen { 
+    font-family: 'Kalam', cursive;
+}
+.question-screen ul {
+    font-size: 130%;
+    padding-top: 90px;
+}
+.rules-screen, .question-screen h2, .end-screen  {
+    height: auto;
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(102, 101, 101, 0.805);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px #ffffff7e;
+    border-left: 1px solid #000000;;
+    border-right: 1px solid #000000;;
+    border-bottom: 1px solid #000000;;
+    position: absolute;
+    top: 50px;
+}
+.question-screen h2 {
+    top: 100px;
+    width: 70%;
+    font-size: 150%;
+    padding-bottom: 5px;
+}
+.question-screen ul {
+    padding-top: 100px;
+}
+.question-screen li {
+    list-style-type: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 5px #ffffff7e;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

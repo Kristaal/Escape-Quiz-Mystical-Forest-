@@ -103,15 +103,139 @@ The page structure is user friendly and simple.  When entering the site, the use
 - A result page, that shows the result of the game.
 
 <details><summary>Start screen</summary>
-<img src="assets/docs/screenshots/start-sreen.png">
-</details>
-<details><summary>Rules screen</summary>
-<img src="">
-</details>
-<details><summary>Quiz screen</summary>
-<img src="">
-</details>
-<details><summary>Result screen</summary>
-<img src="">
+<img src="assets/docs/screenshots/start-screen.png">
 </details>
 
+<details><summary>Rules screen</summary>
+<img src="assets/docs/screenshots/rules-screen.png">
+</details>
+
+<details><summary>Quiz screen</summary>
+<img src="assets/docs/screenshots/quiz-screen.png">
+</details>
+
+<details><summary>Result screen</summary>
+<img src="assets/docs/screenshots/result-screen.png">
+</details>
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+- JavaScript
+
+### Frameworks & Tools
+
+- GitHub
+- Gitpod
+- Paint
+- Gettyimages.ie
+- Balsamiq
+- Font Awesome
+- JSHint
+- Lighthouse
+- W3C Markup validation service
+- W3C Jigsaw CSS validation service 
+- WAVE WebAIM web accessibility evaluation tool
+
+## Features
+The site consists of four pages 
+
+### Start screen
+- Provides an option to start the game
+- User story covered: 
+
+<details><summary>Start screen</summary>
+<img src="assets/docs/features/features-start-screen.png">
+</details>
+
+### Rules screen
+- Provides an option to expain the rules of the game and use buttons go to the next page with quiz;
+- User story covered: 
+
+<details><summary>Start screen</summary>
+<img src="assets/docs/features/features-rules-screen.png">
+</details>
+
+### Quiz screen
+
+- Consists of 3 different sections:
+    - Headindg with question;
+    - Three answers that works as buttons and send you to another question;
+    - Button "exit", that return you home;
+- User stories covered: 
+
+<details><summary>Start screen</summary>
+<img src="assets/docs/features/features-quiz-screen.png">
+</details>
+
+### Result screen
+- Consists of two sections
+    - A section with the current result after comliting quiz;
+    - Buttons "play again" that send user on start screen;
+- User stories covered: 
+
+<details><summary>Start screen</summary>
+<img src="assets/docs/features/features-result-screen.png">
+</details>
+
+## Validation
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+
+
+
+
+
+
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| The video that I used as background showed controls panels | Delete "control" from html file |
+
+
+
+
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: main
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying:
+ Your site is live at https://kristaal.github.io/Escape-Quiz-Mystical-Forest-/
+
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
+
+## Credits
+
+### Media
+In order of apearance:
+- [background](assets/img/videoback.mp4): Video by <a href="https://www.gettyimages.ie/detail/video/walking-in-atmospheric-burnt-forest-after-bush-fire-bare-stock-footage/1278929981?adppopup=true">Andrew Merry</a> on <a href="https://www.gettyimages.ie/detail/video/walking-in-atmospheric-burnt-forest-after-bush-fire-bare-stock-footage/1278929981?adppopup=true">Gettyimages.ie</a>
+
+### Code
+- Code Institute for the Gitpod template provided at https://github.com/Code-Institute-Org/gitpod-full-template allowing easy set up of a repository and workspace s well as initial project HTML template;
+- Font Awesome for social media icons;
+- Google Fonts for imported text fonts;
+- Different YouTube chanels for creating quiz.
+
+## Acknowledgements
+I would like to take the opportunity to thank:
+- My mentor Spencer Barriball for his help, advice and support.
+- To the lovely people on the Code Institute Slack for providing peer code reviews.
+- To my colleagues with whom I study who helped solve problems together

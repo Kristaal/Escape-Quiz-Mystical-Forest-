@@ -133,4 +133,26 @@ const init = () => {
     els.continueBtn = els.rulesScreen.querySelector('.button-continue');
     els.quitBtn = els.questionScreen.querySelector('.button-quit')
     els.endBtn = els.endScreen.querySelector('button');
-    els.answersContainer = els.questionScreen.querySelector('ul'); }
+    els.answersContainer = els.questionScreen.querySelector('ul'); 
+
+    // Page/screen transitions
+    els.welcomeBtn.addEventListener('click', () => {
+        displayScreen('rules');
+        ;
+    });
+
+    els.continueBtn.addEventListener('click', () => {
+        displayScreen('question');
+        displayQuestion(questionIndex);
+    });
+
+    els.quitBtn.addEventListener('click', () => {
+        displayScreen('welcome');
+        questionIndex = 0;
+    });
+
+    els.endBtn.addEventListener('click', () => {
+        displayScreen('welcome');
+        questionIndex = 0;
+    });
+}

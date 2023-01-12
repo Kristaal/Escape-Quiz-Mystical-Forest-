@@ -1,9 +1,9 @@
 # Escape quiz "Mystical Forest"
 (Developer: Kristina Orlichenko github: Kristaal)
 
-![Mockup image] ()
+![Mockup image](docs/Am-I-responsive.png)
 
-[Live webpage] ()
+[Live webpage](https://kristaal.github.io/Escape-Quiz-Mystical-Forest-/)
 
 ##Table of content
 
@@ -79,3 +79,12 @@ The Mystical Forest is a classic survival quiz,with which you can check your log
 3. 
 4. 
 5. 
+
+## Design
+
+### Design Choices
+The game has been designed to have an exciting and scaring effect on the user. The video as a background was chosen to show the emotions of being in a scary forest and trying to escape and survive. The entire design of the game is based on the atmosphere of the classic horror film.
+
+### Colour
+The color palette was chosen to match the horror theme of the background video. A color picker was used to pick colors from the background video, these colors were then further adjusted to meet accessibility criteria and added accent color.
+

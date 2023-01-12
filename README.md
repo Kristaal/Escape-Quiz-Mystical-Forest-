@@ -5,7 +5,7 @@
 
 [Live webpage](https://kristaal.github.io/Escape-Quiz-Mystical-Forest-/)
 
-##Table of content
+## Table of content
 
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
@@ -66,19 +66,14 @@ The Mystical Forest is a classic survival quiz,with which you can check your log
 - Fully responsive quiz regardless of screen size.
 
 ## User Stories
-1. 
-2. 
-3. 
-4. 
-5. 
-
-
-## Site Owner Stories
-1. 
-2. 
-3. 
-4. 
-5. 
+1. As a user, I want to start the game;
+2. As a user, I want to read general rules of this game or how I should play it;
+3. As a user, after reading rules, I want to start the quiz and check my logic;
+4. As a user, I want to be able to exit the game at any time;
+5. As a user, I want to complete all the quiz questions;
+6. As a user, I want to be able to choose from answers;
+7. As a user, I want to get the result of my answers;
+8. As a user, I want to start the game again.
 
 ## Design
 
@@ -154,7 +149,7 @@ The site consists of four pages
 - Provides an option to expain the rules of the game and use buttons go to the next page with quiz;
 - User story covered: 
 
-<details><summary>Start screen</summary>
+<details><summary>Rules screen</summary>
 <img src="assets/docs/features/features-rules-screen.png">
 </details>
 
@@ -166,7 +161,7 @@ The site consists of four pages
     - Button "exit", that return you home;
 - User stories covered: 
 
-<details><summary>Start screen</summary>
+<details><summary>Quiz screen</summary>
 <img src="assets/docs/features/features-quiz-screen.png">
 </details>
 
@@ -176,7 +171,7 @@ The site consists of four pages
     - Buttons "play again" that send user on start screen;
 - User stories covered: 
 
-<details><summary>Start screen</summary>
+<details><summary>Result screen</summary>
 <img src="assets/docs/features/features-result-screen.png">
 </details>
 
@@ -203,18 +198,124 @@ JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascr
 <img src="assets/docs/validation/js-validation.png">
 </details>
 
+### Accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+
+<details><summary>Result</summary>
+<img src="assets/docs/validation/accessibility.png">
+</details>
+
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+
+<details><summary>Result for mobile</summary>
+<img src="assets/docs/validation/lighthouse-mobile.png">
+</details>
+<details><summary>Result for desktop</summary>
+<img src="assets/docs/validation/lighthouse-desktop.png">
+</details>
 
 
+### Performing tests on various devices 
+The website was tested on the following devices:
 
+- Iphone 14;
+- Lenovo ThinkPad;
+- IPad Air.
+
+### Browser Compatability
+The website was tested on the following browsers:
+
+- Google Chrome;
+- Safari;
+- Microsoft Edge.
+
+### Testing user stories
+
+1. As a user, I want to start the game
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Start screen | Click on button "Play" | The button send user to the next page and start the game | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user-story-testing/user-story-1.png">
+</details>
+<br>
+2. As a user, I want to read general rules of this game or how I should play it
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Start screen | Click on button "Play" | The button send user to the next page and shows the rules screen| Works as expected |
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user-story-testing/user-story-1.png">
+</details>
+<br>
+
+3. As a user, after reading rules, I want to start the quiz and check my logic
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Rules screen | Click on button "Continue" | The button send user to the quiz screen| Works as expected |
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user-story-testing/user-story-2.png">
+</details>
+<br>
+4. As a user, I want to be able to exit the game at any time
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz screen | Click on button "quit" | The button send user to the start screen| Works as expected |
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user-story-testing/user-story-3.png">
+</details>
+<br>
+5. As a user, I want to complete all the quiz questions
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz screen | Click on offered answers  | Each answer send you to another question| Works as expected |
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user-story-testing/user-story-4.png">
+</details>
+<br>
+6. As a user, I want to be able to choose from answers
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz screen | Click on offered answers | You have multiple answers and each works and send you to another question| Works as expected |
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user-story-testing/user-story-4.png">
+</details>
+<br>
+7. As a user, I want to get the result of my answers
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz screen | Click on offered answers | After clicking on the selected answers the result of the quiz will appear| Works as expected |
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user-story-testing/user-story-5.png">
+</details>
+<br>
+8. As a user, I want to start the game again
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Result screen | Click on button "Play Again" | The button send user to the start screen| Works as expected |
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user-story-testing/user-story-8.png">
+</details>
+<br>
 
 ## Bugs
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
 | The video that I used as background showed controls panels | Delete "control" from html file |
-
-
-
+| Button "Continue" don't sent user to another page | Fix function .addEventListener in JS file |
+| Result and Rules screens are not responsive on mobile| Add media queries for max-width: 280px |
+| Answers looks like list item with small circle near each |  Add to css file style for list "list-style-type: none"
 
 
 ## Deployment

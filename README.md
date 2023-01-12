@@ -183,9 +183,25 @@ The site consists of four pages
 ## Validation
 
 ### HTML Validation
-The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+The W3C Markup Validation Service was used to validate the HTML of the website. File passed with no errors no warnings to show.
 
+<details><summary>Result</summary>
+<img src="assets/docs/validation/html-validation.png">
+</details>
 
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. File passed with no errors no warnings to show.
+
+<details><summary>Result</summary>
+<img src="assets/docs/validation/css-validation.png">
+</details>
+
+### JavaScript Validation
+JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascript files. No significant issues were found.
+
+<details><summary>Result</summary>
+<img src="assets/docs/validation/js-validation.png">
+</details>
 
 
 

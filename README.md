@@ -139,7 +139,7 @@ The site consists of four pages
 
 ### Start screen
 - Provides an option to start the game
-- User story covered: 
+- User story covered: 1
 
 <details><summary>Start screen</summary>
 <img src="assets/docs/features/features-start-screen.png">
@@ -147,7 +147,7 @@ The site consists of four pages
 
 ### Rules screen
 - Provides an option to expain the rules of the game and use buttons go to the next page with quiz;
-- User story covered: 
+- User story covered: 2
 
 <details><summary>Rules screen</summary>
 <img src="assets/docs/features/features-rules-screen.png">
@@ -159,7 +159,7 @@ The site consists of four pages
     - Headindg with question;
     - Three answers that works as buttons and send you to another question;
     - Button "exit", that return you home;
-- User stories covered: 
+- User stories covered: 3
 
 <details><summary>Quiz screen</summary>
 <img src="assets/docs/features/features-quiz-screen.png">
@@ -169,7 +169,7 @@ The site consists of four pages
 - Consists of two sections
     - A section with the current result after comliting quiz;
     - Buttons "play again" that send user on start screen;
-- User stories covered: 
+- User stories covered: 7
 
 <details><summary>Result screen</summary>
 <img src="assets/docs/features/features-result-screen.png">

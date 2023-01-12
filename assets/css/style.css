@@ -25,6 +25,25 @@ body {
     z-index: -2;
 }
 
+/* Styles for all class pages that I use in JS file */
+.welcome-screen,
+.question-screen,
+.end-screen, .rules-screen {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position-x: center;
+}
+.question-screen,
+.end-screen, .rules-screen {
+    display: none;
+}
+
 /* all buttons */
 .button-continue, .button-quit, .button-again { 
     width: 150px;

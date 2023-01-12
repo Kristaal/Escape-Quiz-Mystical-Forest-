@@ -158,6 +158,14 @@ body {
     margin-top: 5%;
 }
 
+#wrapper{
+    text-align: center;
+}
+#wrapper .end-screen, .rules-screen{
+    display: inline-block;
+    display: inline;
+}
+
 /* Add Media Queries */
 @media only screen and (max-width: 770px) {
     #namegame {font-size: 400%;}
@@ -201,6 +209,7 @@ body {
     .welcome-screen button, .button-quit, .button-again  {width: 70px;
         height: 5vh;
         font-size: 70%}
-    .result {font-size: 70%;}
+    .result {font-size: 70%;
+    }
 }
 

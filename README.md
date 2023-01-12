@@ -1,7 +1,7 @@
 # Escape quiz "Mystical Forest"
 (Developer: Kristina Orlichenko github: Kristaal)
 
-![Mockup image](docs/Am-I-responsive.png)
+![Mockup image](assets/docs/screenshots/Am-I-responsive.png)
 
 [Live webpage](https://kristaal.github.io/Escape-Quiz-Mystical-Forest-/)
 
@@ -87,4 +87,31 @@ The game has been designed to have an exciting and scaring effect on the user. T
 
 ### Colour
 The color palette was chosen to match the horror theme of the background video. A color picker was used to pick colors from the background video, these colors were then further adjusted to meet accessibility criteria and added accent color.
+
+<details><summary>Colour palette</summary>
+<img src="assets/docs/features/color-pallete.png"> 
+</details>
+
+### Fonts
+On the platform Google fonts a font "Gloria Hallelujah" was chosen, because the name of the quiz-game would look unusually, frightening and handwriting. I chose "Kalam" font for readability questions and answers.
+
+### Structure
+The page structure is user friendly and simple.  When entering the site, the user sees a proposal to start the game. The site consists of one page which changes depending on the function:
+- A home page with name of the game and button "Start";
+- A rules page, whick shows rules of the game for user;
+- A question page with quiz;
+- A result page, that shows the result of the game.
+
+<details><summary>Start screen</summary>
+<img src="assets/docs/screenshots/start-sreen.png">
+</details>
+<details><summary>Rules screen</summary>
+<img src="">
+</details>
+<details><summary>Quiz screen</summary>
+<img src="">
+</details>
+<details><summary>Result screen</summary>
+<img src="">
+</details>
 

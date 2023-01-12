@@ -50,3 +50,32 @@ The Mystical Forest is a classic survival quiz,with which you can check your log
 ## Site Owner Goals
 - Creating engaging survival game-quiz, that users will want to play again;
 - The game-quiz shoud be fully responsive for different devices, work well and have a logical calculation of the quiz result.
+
+## Target Audience
+- People, who like quiz;
+- People, who like horror games;
+- People, who like survival games;
+- Casual gamers;
+- People, looking for a quick and engaging game.
+
+## User Requirement and Expectations
+- Visually appealing and exiting design that matches the theme of the game;
+- Quick and easy to play;
+- Simple and function navigation  system;
+- Function that work as expected;
+- Fully responsive quiz regardless of screen size.
+
+## User Stories
+1. 
+2. 
+3. 
+4. 
+5. 
+
+
+## Site Owner Stories
+1. 
+2. 
+3. 
+4. 
+5. 

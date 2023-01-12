@@ -126,19 +126,19 @@ const recordedAnswers = [];
 const init = () => {
     // all variables
     els.welcomeScreen = document.querySelector('.welcome-screen');
-    els.rulesScreen = document.querySelector('.rules-screen')
+    els.rulesScreen = document.querySelector('.rules-screen');
     els.questionScreen = document.querySelector('.question-screen');
     els.endScreen = document.querySelector('.end-screen');
     els.welcomeBtn = els.welcomeScreen.querySelector('button');
     els.continueBtn = els.rulesScreen.querySelector('.button-continue');
-    els.quitBtn = els.questionScreen.querySelector('.button-quit')
+    els.quitBtn = els.questionScreen.querySelector('.button-quit');
     els.endBtn = els.endScreen.querySelector('button');
     els.answersContainer = els.questionScreen.querySelector('ul'); 
 
     // Page/screen transitions
     els.welcomeBtn.addEventListener('click', () => {
         displayScreen('rules');
-        ;
+    
     });
 
     els.continueBtn.addEventListener('click', () => {
@@ -180,7 +180,7 @@ const init = () => {
 const calculateScore = () => {
     const result = recordedAnswers.sort((a, b) => {
         return recordedAnswers.filter(answer => answer === a).length - 
-        recordedAnswers.filter(answer => answer === b).length 
+        recordedAnswers.filter(answer => answer === b).length ;
     }).pop();
     // console.log('result', result)
 

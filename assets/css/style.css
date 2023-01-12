@@ -41,3 +41,33 @@ body {
     box-shadow: 0px 0px 5px 5px #ffffff7e;
     font-family: 'Gloria Hallelujah', cursive;
 }
+
+/* style for rules page */
+.rules-screen h1 i {
+    color: #f0f8ff;
+    position: relative;
+    left: 50%;
+}
+
+.rules-screen h2,h3 {
+    text-align: center;
+}
+
+.rules-screen h2 {
+    color: #ffffff;
+    padding: 10px 0;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+.rules-screen h3, .result {
+    color: #f0f8ff;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.rules-screen h3 span {
+    color: black;
+}

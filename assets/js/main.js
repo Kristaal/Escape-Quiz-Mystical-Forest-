@@ -182,7 +182,7 @@ const calculateScore = () => {
         return recordedAnswers.filter(answer => answer === a).length - 
         recordedAnswers.filter(answer => answer === b).length ;
     }).pop();
-    // console.log('result', result)
+   
 
     // 3 possible results after quiz
     const resultFullAnswer = {
@@ -216,14 +216,14 @@ const displayQuestion = (index) => {
 
 // add function for display each page
 const displayScreen = (screenName) => {
-    // console.log('screenName', screenName);
+   
     els.welcomeScreen.style.display = 'none';
     els.rulesScreen.style.display = 'none';
     els.questionScreen.style.display = 'none';
     els.endScreen.style.display = 'none';
 
     const screen = els[screenName + 'Screen'];
-    // console.log('screen', screen);
+   
     screen.style.display = 'flex';
 };
 

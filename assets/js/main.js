@@ -213,3 +213,18 @@ const displayQuestion = (index) => {
     els.answersContainer.textContent = '';
     els.answersContainer.append(...answerEls);
 };
+
+// add function for display each page
+const displayScreen = (screenName) => {
+    // console.log('screenName', screenName);
+    els.welcomeScreen.style.display = 'none';
+    els.rulesScreen.style.display = 'none';
+    els.questionScreen.style.display = 'none';
+    els.endScreen.style.display = 'none';
+
+    const screen = els[screenName + 'Screen'];
+    // console.log('screen', screen);
+    screen.style.display = 'flex';
+};
+
+window.addEventListener('load', init);

@@ -170,27 +170,26 @@ body {
         width: 70px;
         height: 5vh;
         font-size: 70%; }
-    .question-screen ul, .end-screen, .rules-screen{width: 550px;}
-    .welcome-screen button, .button-quit, .button-again  {width: 90px;
-        height: 5vh;
-        font-size: 100%}
-    .result {font-size: 110%;}
-}
+    }
 
-@media only screen and (max-width: 415px) {
-   #namegame {font-size: 200%;}
-    .rules-screen h2, .rules-screen h3, .question-screen h2 {font-size: 80%;}
-    .question-screen li {font-size: 60%;}
+@media only screen and (max-width: 585px) {
+    #namegame {font-size: 300%;}
+    .rules-screen h2, .rules-screen h3 {font-size: 90%;}
+    .question-screen h2 {font-size: 90%;}
+    .question-screen li {font-size: 70%;}
     .button-continue {
-        width: 70px;
+        width: 60px;
         height: 5vh;
         font-size: 70%; }
-    .question-screen ul, .end-screen, .rules-screen{width: 300px;}
-    .welcome-screen button, .button-quit, .button-again  {width: 70px;
+    .question-screen ul, .end-screen, .rules-screen{width: 400px;}
+    .welcome-screen button, .button-quit  {width: 70px;
+        height: 5vh;
+        font-size: 90%}
+    .result {font-size: 90%;}
+    .button-again { width: 120px;
         height: 5vh;
         font-size: 70%}
-    .result {font-size: 90%;}
-} 
+}
 
 @media only screen and (max-width: 280px) {
     #namegame {font-size: 150%;}

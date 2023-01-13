@@ -216,19 +216,20 @@ body {
              height: 5vh;
              font-size: 60%}
      }
-     
-@media only screen and (max-width: 280px) {
-    #namegame {font-size: 150%;}
-    .rules-screen h2, .rules-screen h3, .question-screen h2, .question-screen li {font-size: 60%;}
-    .button-continue {
-        width: 70px;
-        height: 5vh;
-        font-size: 70%; }
-    .question-screen ul, .end-screen, .rules-screen{width: 200px;}
-    .welcome-screen button, .button-quit, .button-again  {width: 70px;
-        height: 5vh;
-        font-size: 70%}
-    .result {font-size: 70%;
-    }
-}
 
+     @media only screen and (max-width: 350px) {
+        #namegame {font-size: 150%;}
+        .rules-screen h2, .rules-screen h3, .question-screen h2, .question-screen li {font-size: 60%;}
+        .button-continue {
+            width: 70px;
+            height: 5vh;
+            font-size: 70%; }
+        .question-screen ul, .end-screen, .rules-screen{width: 200px;}
+        .welcome-screen button, .button-quit, .button-again  {width: 70px;
+            height: 5vh;
+            font-size: 70%}
+        .result {font-size: 70%;}
+        .button-again { width: 90px;
+            height: 5vh;
+            font-size: 60%}
+    }

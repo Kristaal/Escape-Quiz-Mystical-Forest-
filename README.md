@@ -42,30 +42,32 @@
 ## Project Goals
 The Mystical Forest is a classic survival quiz,with which you can check your logic and intuition. All answers will affect the result and give a chance to escape.
 
-## User Goals
-- Play an exciting survival game-quiz;
+### User Goals
+- Play a survival game-quiz;
 - Test your logic and intuition by answering different quiz questions;
 - Immerse yourself in the atmosphere of a scary forest with secrets.
 
-## Site Owner Goals
+### Site Owner Goals
 - Creating engaging survival game-quiz, that users will want to play again;
 - The game-quiz shoud be fully responsive for different devices, work well and have a logical calculation of the quiz result.
 
-## Target Audience
+## User Experience
+
+### Target Audience
 - People, who like quiz;
 - People, who like horror games;
 - People, who like survival games;
 - Casual gamers;
 - People, looking for a quick and engaging game.
 
-## User Requirement and Expectations
+### User Requirement and Expectations
 - Visually appealing and exiting design that matches the theme of the game;
 - Quick and easy to play;
 - Simple and function navigation  system;
 - Function that work as expected;
 - Fully responsive quiz regardless of screen size.
 
-## User Stories
+### User Stories
 1. As a user, I want to start the game;
 2. As a user, I want to read general rules of this game or how I should play it;
 3. As a user, after reading rules, I want to start the quiz and check my logic;
@@ -78,7 +80,7 @@ The Mystical Forest is a classic survival quiz,with which you can check your log
 ## Design
 
 ### Design Choices
-The game has been designed to have an exciting and scaring effect on the user. The video as a background was chosen to show the emotions of being in a scary forest and trying to escape and survive. The entire design of the game is based on the atmosphere of the classic horror film.
+The game has been designed to have scaring effect on the user. The video as a background was chosen to show the emotions of being in a scary forest and trying to escape and survive. The entire design of the game is based on the atmosphere of the classic horror film.
 
 ### Colour
 The color palette was chosen to match the horror theme of the background video. A color picker was used to pick colors from the background video, these colors were then further adjusted to meet accessibility criteria and added accent color.
@@ -97,21 +99,21 @@ The page structure is user friendly and simple.  When entering the site, the use
 - A question page with quiz;
 - A result page, that shows the result of the game.
 
+### Wireframes
+
 <details><summary>Start screen</summary>
-<img src="assets/docs/screenshots/start-screen.png">
+<img src="assets/docs/wireframes/wireframes-start-screen.png">
 </details>
-
 <details><summary>Rules screen</summary>
-<img src="assets/docs/screenshots/rules-screen.png">
+<img src="assets/docs/wireframes/wireframes-rules-screen.png">
 </details>
-
 <details><summary>Quiz screen</summary>
-<img src="assets/docs/screenshots/quiz-screen.png">
+<img src="assets/docs/wireframes/wireframes-quiz-screen.png">
+</details>
+<details><summary>Result screen</summary>
+<img src="assets/docs/wireframes/wireframes-result-screen.png">
 </details>
 
-<details><summary>Result screen</summary>
-<img src="assets/docs/screenshots/result-screen.png">
-</details>
 
 ## Technologies Used
 
@@ -314,8 +316,12 @@ The website was tested on the following browsers:
 | ----------- | ----------- |
 | The video that I used as background showed controls panels | Delete "control" from html file |
 | Button "Continue" don't sent user to another page | Fix function .addEventListener in JS file |
-| Result and Rules screens are not responsive on mobile| Add media queries for max-width: 280px |
-| Answers looks like list item with small circle near each |  Add to css file style for list "list-style-type: none"
+| Answers looks like list item with small circle near each |  Add to css file style for list "list-style-type: none" |
+| Webpage are not responsive for max-width 770px | Add media queries max-width: 770px |
+Webpage are not responsive for max-width 585px | Add media queries max-width: 585px|
+|Webpage are not responsive for max-width 450px | Add media queries max-width: 450px|
+|Webpage are not responsive for max-width 350px | Add media queries max-width: 350px|
+|Webpage are not responsive for max-height: 600px| Add media queries max-height: 600px|
 
 
 ## Deployment
